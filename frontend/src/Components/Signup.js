@@ -24,7 +24,7 @@ export default function SignUp() {
     }
 
     // Sending data to server
-    fetch("http://localhost:8000/signup", {
+    fetch("https://mentorstudents-org-task.onrender.com/signup", {
       method: "post",
       headers: {
         "Content-Type": "application/json"
