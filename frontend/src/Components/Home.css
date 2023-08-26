@@ -1,0 +1,33 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    background-color: rgb(241, 163, 139);
+}
+.primaryBtn {
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 13px 25px;
+    font-size: 0.8rem;
+    border: none;
+    color: white;
+    background: #db183c;
+    border-radius: 15px;
+    margin-left: 20px;
+    transition: all 0.25s ease;
+  }
+h4{
+    margin: 10px;
+    color: aliceblue;
+}  
+.rec{
+    padding: 5px;
+}  
+.Btn{
+     background-color: #db183c;
+     color: aliceblue;
+     border-radius: 20px;
+     margin: 10px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
